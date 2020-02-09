@@ -1,0 +1,82 @@
+*{
+    text-align: center;
+    background: #1a1a1a;
+    color: rgb(203, 186, 219);
+
+}
+
+.row {
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: blueviolet;
+    cursor: pointer;
+}
+
+.card.done {
+    cursor: default;
+}
+
+.card.done:hover {
+    cursor: default;
+    box-shadow: none;
+}
+
+.card:hover {
+    box-shadow: inset 0px 0px 0px 1px black;
+    box-sizing: border-box;
+}
+
+.red {
+    background: red;
+}
+
+.green {
+    background: green;
+}
+
+.blue {
+    background: blue;
+}
+.orange {
+    background: orange;
+}
+.cyan {
+    background: cyan;
+}
+.yellow {
+    background: yellow;
+}
+.pink {
+    background: pink;
+}
+
+.teal {
+    background: teal;
+}
+
+.color-hidden {
+    background: blueviolet;
+}
+
+.btn{
+    background: gray;
+    height: 50px;
+    width: 150px;
+    /* margin-top: 0; */
+    /* margin-left: 100px; */
+    margin-top: 60px;
+    border-radius: 15px;
+    border-style: solid;
+    text-decoration: none;
+    color: #000;
+
+}
+
+.btn:hover{
+    background: #e9d393;
+}
